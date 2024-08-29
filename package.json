@@ -1,0 +1,25 @@
+{
+  "name": "skipper-theme",
+  "displayName": "Skipper Theme",
+  "version": "0.0.1",
+  "publisher": "skipper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skipper/skipper-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Skipper Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/skipper-theme.json"
+      }
+    ]
+  }
+}
