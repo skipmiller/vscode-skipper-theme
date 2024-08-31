@@ -1,1 +1,0 @@
-gh auth login --with-token
